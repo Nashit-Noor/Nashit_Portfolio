@@ -1,0 +1,50 @@
+.experienceBody{
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+    width: 50vw;
+    max-width: 70rem;
+    justify-content: space-around;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.experienceBody:hover{
+    border: 1.5px solid yellow;
+}
+
+.hired{
+    height: 50%;
+    width: 50%;
+}
+
+.expImg{
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.experience{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline{
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 2px;
+    color: rgb(232, 238, 53);
+}
+
+.designation, .companyName{
+    padding-left: 15px;
+    font-weight: 400;
+}
+
+.companyName{
+    font-weight: 200;
+}

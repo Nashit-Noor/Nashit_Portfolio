@@ -1,0 +1,96 @@
+.contactForm{
+    width: 80vw;
+    height: 100vh;
+    color: white;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contactPanel{
+    width: 50%;
+}
+
+.contactInfo{
+    width: 50%;
+    margin: auto;
+}
+
+.infos{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.infoLine{
+    padding-left: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.heading{
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.formBody{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+}
+
+.para{
+    padding: 20px;
+}
+
+.container{
+    border: thin solid whitesmoke;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+label{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+input{
+    background-color: #0a2c4a;
+    color: white;
+    border: aliceblue;
+    height: 30px;
+}
+
+textarea{
+    margin-bottom: 20px;
+    background-color: #0a2c4a;
+    border: aliceblue;
+    color: white;
+}
+
+.contactBtn{
+    width: 50%;
+    margin: auto;
+    height: 40px;
+    /* padding: 15px; */
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.contactBtn:hover{
+    font-weight: bolder;
+    background-color: aqua;
+    transition: 0.5s;
+}

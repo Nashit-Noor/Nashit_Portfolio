@@ -1,0 +1,41 @@
+.skill{
+  /* height: auto; */
+  width: auto;
+  height: 80vh;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.swiper {
+  height: auto;
+  width: 80vw;
+  }
+  
+  .swiper-slide {
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+    margin: 0 auto;
+    padding-top: 40px;
+    cursor: pointer;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    margin: auto;
+    transition: 0.3s;
+  }
+
+  .swiper-slide img:hover{
+    width: 50%;
+    height: 50%;
+  }
+
+  .swiper-slide .heading {
+    margin-top: 10px;
+    text-align: center;
+  }
+  

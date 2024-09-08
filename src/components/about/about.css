@@ -1,0 +1,62 @@
+#about{
+    height: 100vh;
+    width: 80vw;
+    max-width: 70rem;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.profilePic{
+    height: 100vh;
+    width: 40vw;
+    padding-left: 100px;
+    padding-top: 180px;
+}
+
+#profilePicId{
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    border-radius: 170px;
+}
+
+#profilePicId:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.aboutContent{
+    height: 100vh;
+    width: 50vw;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutPara{
+    font-size: medium;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+p{
+    padding: 15px 0;
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.aboutName{
+    color: yellow;
+}
